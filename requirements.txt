@@ -1,0 +1,12 @@
+# Core dependencies for RAWSim-O MVP
+pygame>=2.5.0
+matplotlib>=3.7.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Optional: for enhanced features
+tqdm>=4.65.0
+
+# Development dependencies (optional)
+pytest>=7.3.0
+pylint>=2.17.0

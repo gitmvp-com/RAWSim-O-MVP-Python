@@ -1,0 +1,30 @@
+{
+  "warehouse": {
+    "width": 30,
+    "height": 20,
+    "pod_storage_rows": 5,
+    "description": "Default warehouse configuration for RAWSim-O MVP"
+  },
+  "robots": {
+    "count": 8,
+    "speed": 2.0,
+    "capacity": 1,
+    "description": "Robot configuration - speed in units/second"
+  },
+  "pods": {
+    "count": 40,
+    "capacity": 100.0,
+    "description": "Storage pod configuration - capacity in arbitrary weight units"
+  },
+  "stations": {
+    "input_count": 2,
+    "output_count": 2,
+    "description": "Input/Output station configuration"
+  },
+  "simulation": {
+    "duration": 300,
+    "warmup_time": 10,
+    "time_step": 0.1,
+    "description": "Simulation parameters - all times in seconds"
+  }
+}
